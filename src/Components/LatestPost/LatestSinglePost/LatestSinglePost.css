@@ -1,0 +1,51 @@
+
+
+.post-card{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 2.25rem #9da5ab;
+    cursor: pointer;
+}
+.post-title-box{
+    padding: 30px 0;
+    background: #00bfa6e0;
+}
+.post-title-box h3{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.badgeDesign{
+    padding: 8px;
+    background-color: #00bfa671;
+    width: 150px;
+    border-radius: 25px;
+    margin: 8px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+}
+.post-card p{
+    font-size: 14px;
+    color: gray;
+}
+.continue button{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #00bfa6e0;
+    cursor: pointer;
+
+}
+.continue .arrow{
+    margin-left: 10px;
+}
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date-time h5{
+    font-size: 14px;
+}

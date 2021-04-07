@@ -1,0 +1,25 @@
+
+.footer-area{
+    background-color: #00bfa6;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-area h1{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.icons-flex{
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+}
+.icons-flex .Icon{
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}

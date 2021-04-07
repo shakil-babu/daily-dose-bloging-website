@@ -1,0 +1,33 @@
+
+.cpost-area-location{
+    background-color: #00bfa6;
+    padding: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cpost-area-location h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+.c-post-grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+
+@media screen and (max-width:992px) {
+    .c-post-grid-layout{
+        grid-template-columns: repeat(2, 1fr);
+    }   
+}
+
+
+@media screen and (max-width:768px) {
+    .c-post-grid-layout{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .c-post-main-area .container h3{
+        font-size: 20px !important;
+    }
+}

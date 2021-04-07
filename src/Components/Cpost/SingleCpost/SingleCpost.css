@@ -1,0 +1,41 @@
+
+.single-c-card{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 0.25rem #9da5ab;
+    cursor: pointer;
+}
+.single-c-card h6{
+    background-color: #00bfa67a;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50px;
+    text-align: center;
+    color: white;
+}
+/* #00bfa6 */
+
+.single-c-card h2{
+    font-size: 18px;
+    background-color:transparent !important;
+    color: #000;
+    font-weight: 400;
+}
+.single-c-card p{
+    color: gray;
+    font-size: 15px;
+}
+
+.button-area{
+    background-color: #00bfa6;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.button-area button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}

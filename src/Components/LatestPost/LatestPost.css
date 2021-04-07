@@ -1,0 +1,37 @@
+
+
+.latest-post-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.lates-full-area h3{
+    font-size:40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.underline-lates-post{
+    margin: 0 auto 30px auto;
+    width: 200px;
+    height: 3px;
+    background-color: #00bfa6 ;
+}
+
+@media screen and (max-width:992px){
+    .latest-post-area{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .latest-post-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .lates-full-area h3{
+        font-size: 20px !important;
+        margin: 15px 0;
+    }
+    
+}
+

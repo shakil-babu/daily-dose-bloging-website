@@ -1,0 +1,27 @@
+
+.area-for-item{
+    background-color: #00bfa6;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.area-for-item h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+.js-post-card-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+
+@media screen and (max-width:768px){
+    .js-post-card-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .js-post-main-area h3{
+        font-size: 20px !important;
+    }
+}

@@ -1,0 +1,23 @@
+
+.blog-title{
+    width: 220px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.blog-title h1{
+    text-transform: uppercase;
+}
+
+.blog-title .underline{
+    width: 100%;
+    height: 3px;
+    background-color: #00bfa686;
+}
+
+
+@media screen and (max-width:768px){
+    .area-for-item h1{
+        font-size: 17px;
+    }
+}

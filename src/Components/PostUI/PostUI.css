@@ -1,0 +1,50 @@
+
+.post-ui-area{
+    background: white;
+    padding: 80px;
+}
+.post-ui-structure{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-posts{
+    width: 75%;
+    margin-right: 15px;
+}
+
+.about-category{
+    width: 25%;
+}
+
+
+
+
+
+
+/* responsive */
+
+@media  screen and (max-width:992px) {
+    .post-ui-structure{
+        flex-direction: column;
+    }
+    .all-posts{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-category{
+        width: 100%;
+    }
+}
+@media  screen and (max-width:768px) {
+    .post-ui-area{
+        padding: 0px;
+    }
+
+}
+
+/* 576 */
+@media  screen and (max-width:576px) {
+   
+}
+
