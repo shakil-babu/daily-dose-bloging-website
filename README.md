@@ -1,13 +1,15 @@
-# About daily-dose
+## Daily Dose - A full features bloging website
 
-=> Daily-dose is a bloging website created using react.js. Using, daily-dose you can increase your knowledge.
+### About daily-dose
+
+* Daily-dose is a bloging website created using react.js. Using, daily-dose you can increase your knowledge.
    There has lots of article about (JavaScript, Node.js, Express.js and C ).
    So, take a tour [https://daily-dosee.netlify.app/](daily-dose) 
 
 ## Benefit with daily-dose
 
-=> Can learn something new about (JavaScript, Node.js, Express.js and C).
-=> Best understading. 
+* Can learn something new about (JavaScript, Node.js, Express.js and C).
+* Best understading. 
 
 
 The application is composed of the following Features:
@@ -32,12 +34,12 @@ The application is composed of the following Features:
 
 ### Technology used
 
-=> React.js
-=> React-router
-=> Hooks
-=> Context Api
-=> Syntax Highlighter
-=> Firebase Authentication
+* React.js
+* React-router
+* Hooks
+* Context Api
+* Syntax Highlighter
+* Firebase Authentication
 
 
 ```
