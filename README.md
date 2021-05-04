@@ -4,7 +4,7 @@
 
 * Daily-dose is a bloging website created using react.js. Using, daily-dose you can increase your knowledge.
    There has lots of article about (JavaScript, Node.js, Express.js and C ).
-   So, take a tour [https://daily-dosee.netlify.app/](daily-dose) 
+* So, take a tour [click me](https://daily-dosee.netlify.app/) 
 
 ## Benefit with daily-dose
 
